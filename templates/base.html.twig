@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html class="h-full" lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Welcome!{% endblock %}</title>
+    <link rel="stylesheet" href="/dist/app.css">
+    {% block stylesheets %}
+    {% endblock %}
+</head>
+<body class="h-full">
+{% block body %}{% endblock %}
+{% block javascripts %}
+{% endblock %}
+<script src="/dist/runtime.js"></script>
+<script src="/dist/app.js"></script>
+</body>
+</html>

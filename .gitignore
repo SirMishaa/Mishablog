@@ -1,3 +1,6 @@
 vendor/
 var/
+node_modules/
+# Webpack build
+public/dist/
 .env
