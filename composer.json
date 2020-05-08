@@ -3,11 +3,15 @@
         "twig/twig": "^3.0",
         "altorouter/altorouter": "^2.0",
         "symfony/asset": "^5.0",
-        "symfony/finder": "^5.0"
+        "symfony/finder": "^5.0",
+        "php-di/php-di": "^6.1"
     },
     "require-dev": {
         "symfony/var-dumper": "^5.0",
         "phpunit/phpunit": "^9.1"
+    },
+    "scripts": {
+        "test": "phpunit --bootstrap vendor/autoload.php --testdox tests"
     },
     "license": "MIT",
     "authors": [
